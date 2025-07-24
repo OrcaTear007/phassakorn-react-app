@@ -55,7 +55,7 @@ export default function Index() {
 
 const resources = [
   {
-    href: "https://github.com/Tigershax/sakda-react-app.git",
+    href: "http://localhost:5173",
     text: "Lab01:Default Remix App",
     icon: (
       <svg
@@ -76,7 +76,7 @@ const resources = [
     ),
   },
   {
-    href: "https://github.com/Tigershax/sakda-react-app.git",
+    href:"http://localhost:5173/white-lab02",
     text: "Lab02: My Fist Component",
     icon: (
       <svg
@@ -97,8 +97,8 @@ const resources = [
     ),
   },
   {
-    href: "https://github.com/Tigershax/sakda-react-app.git",
-    text: "Lab03: Profile Component",
+    href: "http://localhost:5173/white-lab03",
+    text: "Lab03: (24/07/2568)",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
