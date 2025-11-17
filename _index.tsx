@@ -2,8 +2,8 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "WHITE web App" },
-    { name: "description", content: "Welcome to WHITE web App!" },
+    { title: "White Web App" },
+    { name: "description", content: "Welcome to Game App" },
   ];
 };
 
@@ -55,8 +55,8 @@ export default function Index() {
 
 const resources = [
   {
-    href: "http://localhost:5173",
-    text: "Lab01:Default Remix App",
+    href: "http://localhost:5173/",
+    text: "Lab01: (24/07/2568)",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,8 @@ const resources = [
     ),
   },
   {
-    href:"http://localhost:5173/white-lab02",
-    text: "Lab02: My Fist Component",
+    href: "http://localhost:5173/game-Lab02",
+    text: "Lab02: (24/07/2568)",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ const resources = [
     ),
   },
   {
-    href: "http://localhost:5173/white-lab03",
+    href: "http://localhost:5173/Lab03",
     text: "Lab03: (24/07/2568)",
     icon: (
       <svg
@@ -116,9 +116,9 @@ const resources = [
       </svg>
     ),
   },
-  {
-        href: "http://localhost:5173/white-lab04",
-    text: "Lab04: (31/07/2568)",
+{
+    href: "http://localhost:5173/Lab04",
+    text: "Lab04: (24/07/2568)",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -129,18 +129,20 @@ const resources = [
         className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
       >
         <path
-          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" 
-          strokeWidth="1.5"
-          strokeLinecap="round"
+            
+     d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z"
+  stroke="black"
+  strokeWidth="1.5"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  fill="none"
+/>
 
-          
-        />
       </svg>
-     ),
-    },
-
-      {
-        href: "http://localhost:5173/white-lab05",
+    ),
+  },
+  {
+    href: "http://localhost:5173/Lab05",
     text: "Lab05: (14/08/2568)",
     icon: (
       <svg
@@ -152,20 +154,21 @@ const resources = [
         className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
       >
         <path
-          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" 
-          strokeWidth="1.5"
-          strokeLinecap="round"
+            
+     d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z"
 
-          
-        />
+    stroke= "Black"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    fill="none"
+      />
+
       </svg>
-     ),
-    },
-
-
-      {
-
-        href: "http://localhost:5173/white-lab06",
+    ),
+  },
+    {
+    href: "http://localhost:5173/Lab06",
     text: "Lab06: (21/08/2568)",
     icon: (
       <svg
@@ -177,17 +180,66 @@ const resources = [
         className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
       >
         <path
-          d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" 
-          strokeWidth="1.5"
-          strokeLinecap="round"
+            
+     d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+    stroke= "Black"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    fill="none"
+      />
 
-          
-        />
       </svg>
-      
     ),
   },
-    
- 
-  
+  {
+    href: "http://localhost:5173/Lab07",
+    text: "Lab07: (28/08/2568)",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
+      >
+        <path
+            
+     d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+    stroke= "Black"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    fill="none"
+      />
+
+      </svg>
+    ),
+  },
+  {
+    href: "http://localhost:5173/books/add-book",
+    text: "Lab08: (9/18/2568)",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
+      >
+        <path
+            
+     d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+    stroke= "Black"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    fill="none"
+      />
+
+      </svg>
+    ),
+  },
 ];

@@ -8,7 +8,7 @@ export default function MyTermProjecr(){
         bookTitle: "Web Programming",
         bookDesc: "พัฒนาด้วย React & Tailwind Css",
         bookPrice: 199,
-        bookAuthor: "White",
+        bookAuthor: "Whire",
         bookCover: "/images/bookCover.jpg"
     });
     const [nextId, setNextId] = useState(1);
@@ -21,8 +21,8 @@ export default function MyTermProjecr(){
     },[books.length]);
 
     // Student Information
-    const myPage ="White term project";
-    const myName ="Patsakorn Makpun";
+    const myPage ="white term project";
+    const myName ="patsakorn ";
     const myStudID ="026730491005-7";
 
     
@@ -287,7 +287,7 @@ function BookDashboard(){
           </div>
         </div>
 
-        <Footer messenger = "@ 2025 Patsakorn - "/>
+        <Footer messenger = "@ 2025 patsakorn - "/>
            </>
     );
 
